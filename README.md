@@ -1,4 +1,3 @@
-# rpie-ovl
 # Overlays for Retropie 4.x - Retroarch
 Lr-Mame2003 (latest version with correct aspect ratio) w 1080p Display
 
