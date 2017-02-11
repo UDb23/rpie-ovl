@@ -5,20 +5,21 @@ Original logos, graphics and trademarks are property of their respective owners.
 # Overlays not for commercial use.
 
 
-How to install
---------------
+## How to install
+
 Each overlay folder contains specific instruction; generally setup OVERLAY in this way:
 
-Cfg files assume retroarch overlay folder is:
-/opt/retropie/emulators/retroarch/overlays/arcade-bezels/
-if using a different folder-> edit cfg files accordingly
-if folder does not exist on you Pi-> create arcade-bezels folder with the mentioned path
+The `.cfg` files assume retroarch overlay folder is: `/opt/retropie/emulators/retroarch/overlays/arcade-bezels/`
 
+If using a different folder, edit `.cfg` files accordingly.
+
+If folder does not exist on your RetroPie, create `arcade-bezels` folder with the mentioned path.
+
+Summarizing the steps:
 - ssh or ftp into Pi
-- copy romname.zip.cfg into your mame-libretro (lr-mame2003) ROMS folder
-- copy png file and romname.cfg into overlay folder
-
+- copy romname.zip.cfg into your `mame-libretro` (lr-mame2003) ROMS folder
+- copy png file and `romname.cfg` into overlay folder
 
 Have fun !
 
-NOT FOR COMMERCIAL USE
+**NOT FOR COMMERCIAL USE**
