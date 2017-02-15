@@ -1,7 +1,7 @@
 # Overlays for Retropie 4.x - Retroarch
 Lr-Mame2003 (latest version with correct aspect ratio) and 1080p Display.
 
-Users reported ovelays work also with lower resolution (1366x768) and with (lr)Final Burn Alpha.
+Users reported overlays work also with lower resolution (1366x768) and with (lr)Final Burn Alpha.
 
 Original logos, graphics and trademarks are property of their respective owners. 
 # Overlays not for commercial use.
