@@ -1,11 +1,7 @@
 # Aliens Overlay for Retropie 4.x - Retroarch
-
 # Lr-Mame2003 (latest version with correct aspect ratio) w 1080p Display
-
 #
-
 # Overlay created by UDb23 (Jan 2017)
-
 #
 # Original logos, graphics and trademarks are property of their respective owners. 
 ###########################################################################################
