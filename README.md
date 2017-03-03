@@ -4,10 +4,20 @@ Lr-Mame2003 (latest version with correct aspect ratio) and 1080p Display.
 Users reported overlays work also with lower resolution (1366x768) and with (lr)Final Burn Alpha.
 
 Original logos, graphics and trademarks are property of their respective owners. 
-# Overlays not for commercial use.
-
+# These Overlays are **NOT** for commercial use.
 
 ## How to install
+
+```
+git clone --depth 1 https://github.com/udb23/rpie-ovl.git
+cd rpie-ovl
+bash rpie-ovl.sh
+```
+
+After launching `rpie-ovl.sh` you just have to follow the instructions in the dialog boxes.
+
+
+## How to install manually
 
 Each overlay folder contains specific instruction; generally setup OVERLAY in this way:
 
