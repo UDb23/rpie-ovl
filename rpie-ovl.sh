@@ -68,7 +68,7 @@ function games_menu() {
     local choice
     local i=1
 
-    find -maxdepth 1 -type d ! -name .git ! -name . | sed 's|^\./\?||' | sort > "$tmpfile"
+    find -maxdepth 1 -type d ! -name .git ! -name . ! -name nes | sed 's|^\./\?||' | sort > "$tmpfile"
     
     while IFS='' read -r game || [[ -n "$game" ]]; do
         options+=( "$i" "$game" off )
