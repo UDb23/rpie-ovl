@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 #
 # TODO:
-# - dealing with "options", such as the "Burning Force/Option 1"
+# - deal with "options", such as the "Burning Force/Option 1"
+# - adapt the script for multiple systems overlays
 
 source /opt/retropie/lib/inifuncs.sh || exit 1
 
@@ -11,6 +12,11 @@ if ! [[ -d "$arcade_roms_dir" ]]; then
     echo "It seems that you put your roms in some unusual directory. Aborting..." >&2
     exit 1
 fi
+
+
+function dialogMsg() {
+    dialog --msgbox "$@" 10 60 2>&1 > /dev/tty
+}
 
 
 
@@ -56,7 +62,7 @@ function arcade_dir_menu() {
         ((i++))
     done
 
-    choice=$("${cmd[@]}" "${options[@]}" 2>&1 >/dev/tty) || exit 1
+    choice=$("${cmd[@]}" "${options[@]}" 2>&1 >/dev/tty) || return 1
     echo "${options[2*choice-1]}"
 }
 
@@ -68,7 +74,18 @@ function games_menu() {
     local choice
     local i=1
 
-    find -maxdepth 1 -type d ! -name .git ! -name . ! -name nes | sed 's|^\./\?||' | sort > "$tmpfile"
+    find -maxdepth 1 -type d \
+        ! -name . \
+        ! -name .git \
+        ! -name atari2600 \
+        ! -name nes \
+        ! -name snes \
+        ! -name mastersystem \
+        ! -name megadrive \
+        ! -name gb \
+        ! -name gba \
+        ! -name gbc \
+    | sed 's|^\./\?||' | sort > "$tmpfile"
     
     while IFS='' read -r game || [[ -n "$game" ]]; do
         options+=( "$i" "$game" off )
@@ -76,7 +93,7 @@ function games_menu() {
     done < "$tmpfile"
     echo -n > "$tmpfile"
 
-    choice=$("${cmd[@]}" "${options[@]}" 2>&1 >/dev/tty) || exit 1
+    choice=$("${cmd[@]}" "${options[@]}" 2>&1 >/dev/tty) || return 1
     for i in $choice; do
         echo "${options[3*i-2]}" >> "$tmpfile"
     done
@@ -96,8 +113,14 @@ function install_overlays() {
 
     iniConfig ' = ' '"'
 
-    romdir=$(arcade_dir_menu)
-    games_menu
+    while true; do
+        romdir=$(arcade_dir_menu) || exit 1
+        while true; do
+            games_menu || break
+            [[ -s "$tmpfile" ]] && break 2
+            dialogMsg "You didn't choose any overlay. Please select at least one or cancel."
+        done
+    done
 
     while IFS='' read -r game || [[ -n "$game" ]]; do
         dialog --infobox "Installing overlay for \"$game\"..." 4 60
@@ -133,7 +156,7 @@ function install_overlays() {
             || break
 
             if ! show_image "$ovl_dir/$choice"; then
-                dialog --msgbox "Unable to show the image.\n(OBS.: there's no way to show image when using SSH.)" 10 60 2>&1 > /dev/tty
+                dialogMsg "Unable to show the image.\n(Note: there's no way to show image when using SSH.)"
             fi
 
             dialog --yesno "Do you accept the file \"$choice\" as the overlay for \"$game\"?" 7 60 2>&1 > /dev/tty \
@@ -145,8 +168,9 @@ function install_overlays() {
     done < "$tmpfile"
 
     [[ -n "$failed" ]] && failed="\nFailed to install overlay for these games:\n$failed"
-    dialog --msgbox "Overlay installation finished!\n$failed" 20 60 2>&1 > /dev/tty
+    dialogMsg "Overlay installation finished!\n$failed"
 }
+
 
 
 readonly tmpfile=$(mktemp)
