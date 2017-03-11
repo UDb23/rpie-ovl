@@ -1,0 +1,8 @@
+# Generic Overlay for Retropie 4. - Retroarch w 1080p Display
+# 3x original screen size
+# Overlay created by UdB23 (Nov 2016)
+#
+# Original logos, graphics and trademarks are property of their respective owners. 
+#   Original Game Boy Advanced graphics by BLUEamnesiac
+#   (http://www.deviantart.com/art/Nintendo-Game-Boy-Advance-Indigo-436224303)
+###########################################################################################
