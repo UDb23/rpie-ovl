@@ -6,3 +6,6 @@
 #   Original Game Boy Advanced graphics by BLUEamnesiac
 #   (http://www.deviantart.com/art/Nintendo-Game-Boy-Advance-Indigo-436224303)
 ###########################################################################################
+
+Add gba-LR.cfg content to you existing retroarch.cfg in the configs gba folder.
+If no retroarch.cfg exists in that folder, simply copy the here provided retroarch.cfg into the folder.
