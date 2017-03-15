@@ -9,3 +9,6 @@
 
 Add gba-LR.cfg content to you existing retroarch.cfg in the configs gba folder.
 If no retroarch.cfg exists in that folder, simply copy the here provided retroarch.cfg into the folder.
+
+You can also customize the viewport by editing your gba retroarch configuration file as shown at
+  https://github.com/retropie/retropie-setup/wiki/Smaller-RetroArch-Screen
