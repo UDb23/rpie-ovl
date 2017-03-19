@@ -1,10 +1,14 @@
 #!/usr/bin/env bash
+# rpie-ovl.sh
 #
 # TODO:
 # - deal with "options", such as the "Burning Force/Option 1"
 # - adapt the script for multiple systems overlays
 
-source /opt/retropie/lib/inifuncs.sh || exit 1
+if ! source /opt/retropie/lib/inifuncs.sh ; then
+    echo "ERROR: \"inifuncs.sh\" file not found! Aborting..." >&2
+    exit 1
+fi
 
 arcade_roms_dir=( $(ls -df1 "/home/$USER/RetroPie/roms"/{mame-libretro,arcade,fba,neogeo}) )
 
@@ -12,6 +16,9 @@ if ! [[ -d "$arcade_roms_dir" ]]; then
     echo "It seems that you put your roms in some unusual directory. Aborting..." >&2
     exit 1
 fi
+
+scriptdir="$(dirname "$0")"
+scriptdir="$(cd "$scriptdir" && pwd)"
 
 
 function dialogMsg() {
@@ -50,6 +57,32 @@ function show_image() {
 
 
 
+function main_menu() {
+    local cmd=( dialog --menu "Choose an option." 18 70 60 )
+    local options=()
+    local choice
+
+    options+=( A "Install overlays" )
+    options+=( U "Update rpie-ovl script and overlay files" )
+    choice=$("${cmd[@]}" "${options[@]}" 2>&1 >/dev/tty) || return 1
+
+    case "$choice" in
+    A)  install_overlays
+        ;;
+
+    U)  dialog --infobox "Fetching latest version of the script and overlay files" 0 0
+        cd "$scriptdir"
+        local branch=$(git branch | sed '/^\* /!d; s/^\* //')
+        git fetch --prune
+        git reset --hard origin/"$branch" > /dev/null
+        git clean -f -d
+        exec "$scriptdir/$(basename "$0")"
+        ;;
+    esac
+}
+
+
+
 function arcade_dir_menu() {
     local cmd=( dialog --menu "Select the directory where you want to install the overlay(s)." 18 70 60 )
     local options=()
@@ -74,6 +107,7 @@ function games_menu() {
     local choice
     local i=1
 
+    cd arcade
     find -maxdepth 1 -type d \
         ! -name . \
         ! -name .git \
@@ -86,6 +120,7 @@ function games_menu() {
         ! -name gba \
         ! -name gbc \
     | sed 's|^\./\?||' | sort > "$tmpfile"
+    cd -
     
     while IFS='' read -r game || [[ -n "$game" ]]; do
         options+=( "$i" "$game" off )
@@ -175,6 +210,6 @@ function install_overlays() {
 
 readonly tmpfile=$(mktemp)
 
-install_overlays
+main_menu
 
 rm -f "$tmpfile"
