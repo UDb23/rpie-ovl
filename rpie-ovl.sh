@@ -74,6 +74,7 @@ function games_menu() {
     local choice
     local i=1
 
+    cd arcade
     find -maxdepth 1 -type d \
         ! -name . \
         ! -name .git \
