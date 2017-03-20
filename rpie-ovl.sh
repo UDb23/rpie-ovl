@@ -160,7 +160,7 @@ function install_overlays() {
     while IFS='' read -r game || [[ -n "$game" ]]; do
         dialog --infobox "Installing overlay for \"$game\"..." 4 60
 
-        rom_zip_cfg="$(ls "$game"/*.zip.cfg | head -1)"
+        rom_zip_cfg="$(ls "arcade/$game"/*.zip.cfg | head -1)"
         ovl_cfg="${rom_zip_cfg/%zip.cfg/cfg}"
         rom="$(basename "$rom_zip_cfg")"
         rom="${rom%.zip.cfg}"
@@ -177,7 +177,7 @@ function install_overlays() {
         mkdir -p "$ovl_dir"
         cp "$ovl_cfg" "$ini_value"
         ovl_cfg="$ini_value"
-        cp "$game"/*-ovl.png "$ovl_dir"
+        cp "arcade/$game"/*-ovl.png "$ovl_dir"
 
         ovl_img=( $(ls "$ovl_dir/$rom"*-ovl.png | xargs basename -a ) )
 
