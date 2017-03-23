@@ -1,5 +1,4 @@
-# Cadillacs and Dinosaurs
+game_name = "Cadillacs and Dinosaurs"
 rom_config = "dino.zip.cfg"
 overlay_config = "dino.cfg"
-# multiple values separated by semicolon
 overlay_image = "dino_udb-ovl.png"
