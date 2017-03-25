@@ -1,0 +1,7 @@
+# game_name: REQUIRED
+# The script ignores the file if it doesn't have this entry if it's a system
+# generic overlay, game_name must be "_generic"
+game_name = "Aliens"
+rom_config = "aliens.zip.cfg"
+overlay_config = "aliens.cfg"
+overlay_image = "aliens_udb-ovl.png"
