@@ -1,7 +1,7 @@
 # game_name: REQUIRED
 # The script ignores the file if it doesn't have this entry if it's a system
 # generic overlay, game_name must be "_generic"
-game_name = "Burning Force"
+game_name = "1941: Counter Attack"
 rom_config = "1941.zip.cfg"
 overlay_config = "1941.cfg"
 overlay_image = "1941_udb-ovl.png"
