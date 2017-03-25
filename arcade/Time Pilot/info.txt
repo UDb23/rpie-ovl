@@ -2,6 +2,6 @@
 # The script ignores the file if it doesn't have this entry if it's a system
 # generic overlay, game_name must be "_generic"
 game_name = "Time Pilot"
-rom_config = "astrob.zip.cfg"
-overlay_config = "astrob.cfg"
-overlay_image = "astrob_udb-ovl.png"
+rom_config = "timeplt.zip.cfg"
+overlay_config = "timeplt.cfg"
+overlay_image = "timeplt_udb-ovl.png"
