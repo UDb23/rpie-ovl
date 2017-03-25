@@ -1,0 +1,13 @@
+# game_name: REQUIRED
+# The script ignores the file if it doesn't have this entry if it's a system
+# generic overlay, game_name must be "_generic"
+game_name = "Burning Force"
+rom_config = "burnforc.zip.cfg"
+overlay_config = "burnforc.cfg"
+overlay_image = "burnforc_udb-ovl.png"
+rom_clones = "burnforco"
+launching_image = "burnforc-launching.png"
+scrape_image = "burnforc-image.png"
+rom_config_1 = "Option 1/burnforc.zip.cfg"
+overlay_config_1 = "Option 1/burnforc.cfg"
+overlay_image_1 = "Option 1/burnforc_udb-ovl.png"
