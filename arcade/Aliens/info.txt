@@ -4,4 +4,4 @@
 game_name = "Aliens"
 rom_config = "aliens.zip.cfg"
 overlay_config = "aliens.cfg"
-overlay_image = "aliens_udb-ovl.png"
+overlay_image = "aliens_udb_1-ovl.png;aliens_udb_2-ovl.png"
