@@ -4,4 +4,4 @@
 game_name = "Astro Blaster"
 rom_config = "astrob.zip.cfg"
 overlay_config = "astrob.cfg"
-overlay_image = "aliens_udb_1-ovl.png;aliens_udb_2-ovl.png"
+overlay_image = "astrob_krk_udb-ovl.png"
