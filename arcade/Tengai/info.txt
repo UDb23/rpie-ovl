@@ -1,0 +1,4 @@
+game_name = "Tengai (Sengoku Blade)"
+rom_config = "tengai.zip.cfg"
+overlay_config = "tengai.cfg"
+overlay_image = "tengai_udb-ovl.png"
