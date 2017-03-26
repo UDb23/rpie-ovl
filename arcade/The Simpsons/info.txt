@@ -1,0 +1,4 @@
+game_name = "The Simpsons"
+rom_config = "simpsons.zip.cfg"
+overlay_config = "simpsons.cfg"
+overlay_image = "simpsons_udb-ovl.png"
