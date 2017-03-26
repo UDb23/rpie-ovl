@@ -1,0 +1,4 @@
+game_name = "DigDug"
+rom_config = "digdug.zip.cfg"
+overlay_config = "digdug.cfg"
+overlay_image = "digdug_udb-ovl.png"
