@@ -3,5 +3,5 @@
 # generic overlay, game_name must be "_generic"
 game_name = "_generic"
 rom_config = "atari2600-LR.cfg"
-ovl_config = "atari2600-ovl.cfg"
+overlay_config = "atari2600-ovl.cfg"
 overlay_image = "atari2600_udb-ovl.png"
