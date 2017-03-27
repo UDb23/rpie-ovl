@@ -1,0 +1,4 @@
+game_name = "Ms. Pacman"
+rom_config = "mspacman.zip.cfg"
+overlay_config = "mspacman.cfg"
+overlay_image = "mspacman_udb-ovl.png"
