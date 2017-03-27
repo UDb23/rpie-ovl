@@ -1,0 +1,4 @@
+game_name = "New Rally-X"
+rom_config = "nrallyx.zip.cfg"
+overlay_config = "nrallyx.cfg"
+overlay_image = "nrallyx_udb-ovl.png"
