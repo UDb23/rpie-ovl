@@ -1,0 +1,4 @@
+game_name = "Moon Cresta"
+rom_config = "mooncrst.zip.cfg"
+overlay_config = "mooncrst.cfg"
+overlay_image = "mooncrst_udb-ovl.png"
