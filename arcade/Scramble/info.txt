@@ -1,0 +1,5 @@
+
+game_name = "Scramble"
+rom_config = "scramble.zip.cfg"
+overlay_config = "scramble.cfg"
+overlay_image = "scramble_udb-ovl.png"
