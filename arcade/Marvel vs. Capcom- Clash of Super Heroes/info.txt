@@ -1,0 +1,4 @@
+game_name = "Marvel vs Capcom"
+rom_config = "mvsc.zip.cfg"
+overlay_config = "mvsc.cfg"
+overlay_image = "mvsc_udb_1-ovl.png; mvsc_udb_2-ovl.png"
