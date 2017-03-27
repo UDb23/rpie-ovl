@@ -1,0 +1,4 @@
+game_name = "Phoenix"
+rom_config = "phoenix.zip.cfg"
+overlay_config = "phoenix.cfg"
+overlay_image = "phoenix_udb-ovl.png"
