@@ -1,0 +1,4 @@
+game_name = "Frenzy"
+rom_config = "frenzy.zip.cfg"
+overlay_config = "frenzy.cfg"
+overlay_image = "frenzy_udb-ovl.png"
