@@ -1,0 +1,7 @@
+# game_name: REQUIRED
+# The script ignores the file if it doesn't have this entry if it's a system
+# generic overlay, game_name must be "_generic"
+game_name = "Game and Watch Gallery 4"
+rom_config = "gwg4.gba.cfg"
+overlay_config = "gwg4_gba.cfg"
+overlay_image = "gwg4_gba_udb-ovl.png"
