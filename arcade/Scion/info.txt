@@ -1,0 +1,5 @@
+
+game_name = "Scion"
+rom_config = "scion.zip.cfg"
+overlay_config = "scion.cfg"
+overlay_image = "scion_udb-ovl.png"
