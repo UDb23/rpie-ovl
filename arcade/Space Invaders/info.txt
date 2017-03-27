@@ -1,0 +1,4 @@
+game_name = "Space Invaders"
+rom_config = "invaders.zip.cfg"
+overlay_config = "invaders.cfg"
+overlay_image = "invaders_udb-ovl.png"
