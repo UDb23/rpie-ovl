@@ -1,0 +1,10 @@
+# game_name: REQUIRED
+# The script ignores the file if it doesn't have this entry if it's a system
+# generic overlay, game_name must be "_generic"
+game_name = "Lunar Rescue"
+rom_config = "lrescue.zip.cfg"
+overlay_config = "lrescue.cfg"
+overlay_image = "lrescue_udb_1-ovl.png; lrescue_udb_2-ovl.png"
+rom_clones = "burnforco"
+launching_image = "lrescue-launching.png"
+scrape_image = "lrescue-image.png"
