@@ -4,4 +4,4 @@
 game_name = "Time Pilot"
 rom_config = "timeplt.zip.cfg"
 overlay_config = "timeplt.cfg"
-overlay_image = "timeplt_udb-ovl.png"
+overlay_image = "timeplt_udb_1-ovl.png; timeplt_udb_2-ovl.png "
