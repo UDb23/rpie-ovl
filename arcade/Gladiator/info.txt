@@ -1,0 +1,8 @@
+# game_name: REQUIRED
+# The script ignores the file if it doesn't have this entry if it's a system
+# generic overlay, game_name must be "_generic"
+game_name = "Gladiator"
+rom_config = "gladiatr.zip.cfg"
+overlay_config = "gladiatr.cfg"
+overlay_image = "gladiatr_udb-ovl.png"
+rom_clones = "ogonsiro"
