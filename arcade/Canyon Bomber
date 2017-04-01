@@ -1,5 +1,0 @@
-game_name = "Canyon Bomber"
-rom_config = "canyon.zip.cfg"
-overlay_config = "canyon.cfg"
-overlay_image = "canyon_udb-ovl.png"
-rom_clones = "canyonp"
