@@ -1,0 +1,4 @@
+game_name = "In the hunt"
+rom_config = "inthunt.zip.cfg"
+overlay_config = "inthunt.cfg"
+overlay_image = "inthunt_udb-ovl.png"
