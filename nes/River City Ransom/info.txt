@@ -1,0 +1,5 @@
+game_name = "River City Ransom"
+rom_config = "seaquest.bin.cfg"
+overlay_config = "seaquest_a26.cfg"
+overlay_image = "seaquest_a26_udb-ovl.png"
+system = "nes"
