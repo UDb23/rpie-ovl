@@ -1,0 +1,7 @@
+lr-nestopia
+default: 1711 x 1080  IS off  105 3x
+IS on: 1420 x 896  250,92
+
+lr-FCEUmm
+default: 1322 x1080 IS off 299 3x
+IS on: 1096 x 896 412,92
