@@ -14,13 +14,19 @@ Here is a hypothetical example with the rules described on the comments:
 ```
 # game_name: REQUIRED
 # The script ignores the file if it doesn't have this entry if it's a system
-# generic overlay, game_name must be "_generic"
+# generic overlay, game_name MUST be "_generic"
 game_name = "Game Name"
+
+# system: REQUIRED
+# The system that runs the game (e.g.: nes, megadrive, neogeo, fba, etc.).
+# Use the same name as the RetroPie uses (those directories at `RetroPie/roms/` and
+# `/opt/retropie/configs/` are good examples).
+system = "system"
 
 # rom_config: OPTIONAL (REQUIRED for overlays)
 # This is the file that stays in the same directory as the ROM.
 # If it's an arcade game overlay, it's pretty simple: ROM.zip.cfg
-# If it's a system generic overlay: system.cfg
+# If it's a system generic overlay use system.cfg. Examples: nes.cfg, gba.cfg, neogeo.cfg.
 # If it's a console game overlay, use "GameName.cfg" as a guideline. But since
 # there's no rule for console ROM file names, the script will try to find
 # the exact ROM name based on the game_name entry and show the options to let
