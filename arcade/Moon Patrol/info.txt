@@ -1,4 +1,5 @@
 game_name = "Moon Patrol"
 rom_config = "mpatrol.zip.cfg"
 overlay_config = "mpatrol.cfg"
+overlay_image = "mpatrol_udb-ovl.png"
 rom_clones = "mpatrolw"
