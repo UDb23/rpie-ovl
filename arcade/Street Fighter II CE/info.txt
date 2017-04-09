@@ -1,5 +1,5 @@
 game_name = "Street Figher II Championship Edition"
 rom_config = "sf2ce.zip.cfg"
 overlay_config = "sf2ce.cfg"
-overlay_image = "sf2ce_krk_udb-ovl.png"
+overlay_image = "sf2ce_udb-ovl.png"
 system = "arcade"
