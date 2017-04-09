@@ -1,5 +1,5 @@
 game_name = "Vanguard"
 rom_config = "vangrdce.zip.cfg"
 overlay_config = "vangrdce.cfg"
-overlay_image = "vangrdce_udb-ovl.pn
+overlay_image = "vangrdce_udb-ovl.png"
 system = "arcade"
