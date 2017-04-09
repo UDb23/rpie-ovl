@@ -36,7 +36,7 @@ Summarizing the steps:
 
 ## Launching Images
 Game specific launching images are named `RomName-lanching.png` (or `.jpg`).
-To install simply copy the image to the `RetroPie/roms/SYSTEM/images/` folder on your Pi.
+To install copy the image to the `RetroPie/roms/[SYSTEM]/images/` folder on your Pi and, if needed, rename the file to match the exact name of the ROM plus the trailing `-launching.png` (or `.jpg`).
 
 Have fun !
 
