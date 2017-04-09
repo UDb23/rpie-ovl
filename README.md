@@ -1,12 +1,14 @@
-# Overlays for Retropie 4.x - Retroarch
-Lr-Mame2003 (latest version with correct aspect ratio) and 1080p Display.
-
+# Overlays for Retropie 4.x - Retroarch/Libretro 
+Arcade game overlays created for Lr-Mame2003 (latest version with correct aspect ratio) and 1080p Display.
 Users reported overlays work also with lower resolution (1366x768) and with (lr)Final Burn Alpha.
+
+Selected Console overlays, generic and game specific, are also included. 
 
 Original logos, graphics and trademarks are property of their respective owners. 
 # These Overlays are **NOT** for commercial use.
 
-## How to install
+## How to install 
+(arcade only, consoles coming soon)
 
 ```
 git clone --depth 1 https://github.com/udb23/rpie-ovl.git
@@ -31,6 +33,10 @@ Summarizing the steps:
 - ssh or ftp into Pi
 - copy romname.zip.cfg into your `mame-libretro` (lr-mame2003) ROMS folder
 - copy png file and `romname.cfg` into overlay folder
+
+## Launching Images
+Game specific launching images are named `RomName-lanching.png` (or `.jpg`).
+To install simply copy the image to the `RetroPie/roms/SYSTEM/images/` folder on your Pi.
 
 Have fun !
 
