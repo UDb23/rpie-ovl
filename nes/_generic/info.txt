@@ -1,0 +1,5 @@
+game_name = "_generic"
+system = "nes"
+rom_config = "nes-LR.cfg"
+overlay_config = "nes_generic_udb-ovl.png"
+overlay_image = "nes_generic_udb.cfg"
