@@ -1,1 +1,1 @@
-Folder for contribution and testing purposes
+Folder for meleu's contribution and tests.
