@@ -1,0 +1,3 @@
+system = "nes"
+game_name = "Mega Man"
+launching_image = "https://raw.githubusercontent.com/HerbFargus/retropie-splashscreens-extra/master/megaman.jpg"

@@ -1,0 +1,3 @@
+system = "snes"
+game_name = "Super Mario World"
+launching_image = "https://raw.githubusercontent.com/HerbFargus/retropie-splashscreens-extra/master/rookervik-super-mario-world.png"
