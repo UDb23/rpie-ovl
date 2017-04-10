@@ -1,1 +1,1 @@
-Side bars only Overlay
+video_scale_integer Overlay
