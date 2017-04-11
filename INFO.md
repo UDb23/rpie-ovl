@@ -17,6 +17,10 @@ Here is a hypothetical example with the rules described on the comments:
 # generic overlay, game_name MUST be "_generic"
 game_name = "Game Name"
 
+# creator: OPTIONAL
+# The creator of the overlay. Script will give credit in the dialogs while installing the files.
+creator = "name"
+
 # system: REQUIRED
 # The system that runs the game (e.g.: nes, megadrive, neogeo, fba, etc.).
 # Use the same name as the RetroPie uses (those directories at `RetroPie/roms/` and
