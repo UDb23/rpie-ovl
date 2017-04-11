@@ -1,0 +1,4 @@
+system = "snes"
+game_name = "Earthworm Jim"
+launching_image = "https://raw.githubusercontent.com/HerbFargus/retropie-splashscreens-extra/master/rookervik-earthworm.png"
+

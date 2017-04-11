@@ -1,0 +1,3 @@
+system = "sega32x"
+game_name = "_generic"
+launching_image = "https://raw.githubusercontent.com/ehettervik/es-runcommand-splash/master/sega32x/launching.png"

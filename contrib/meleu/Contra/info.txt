@@ -1,0 +1,3 @@
+game_name = "Contra"
+launching_image = "https://raw.githubusercontent.com/HerbFargus/retropie-splashscreens-extra/master/lilbud-contra.jpg"
+system = "nes"

@@ -1,0 +1,3 @@
+game_name = "Duck Tales"
+launching_image = "https://raw.githubusercontent.com/HerbFargus/retropie-splashscreens-extra/master/lilbud-ducktales.jpg"
+system = "nes"

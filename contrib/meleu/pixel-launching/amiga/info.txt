@@ -1,0 +1,3 @@
+system = "amiga"
+game_name = "_generic"
+launching_image = "https://raw.githubusercontent.com/ehettervik/es-runcommand-splash/master/amiga/launching.png"
