@@ -1,0 +1,5 @@
+game_name = "Mortal Kombat II"
+system = "arcade"
+rom_config = "mk2.zip.cfg"
+overlay_config = "mk2.cfg"
+overlay_image = "mk2-ovl.png"
