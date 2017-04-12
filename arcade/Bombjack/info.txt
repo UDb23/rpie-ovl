@@ -1,0 +1,6 @@
+game_name = "Bombjack"
+system = "arcade"
+creator = "UDb23"
+rom_config = "bombjack.zip.cfg"
+overlay_config = "bombjack.cfg"
+overlay_image = "bombjack_udb-ovl.png"
