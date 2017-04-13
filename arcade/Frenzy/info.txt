@@ -1,6 +1,7 @@
 game_name = "Frenzy"
+creator = "UDb23"
 rom_config = "frenzy.zip.cfg"
 overlay_config = "frenzy.cfg"
-overlay_image = "frenzy_udb-ovl.png"
+overlay_image = "frenzy_udb1-ovl.png;frenzy_udb2-ovl.png"
 launching_image = "frenzy-launching.png"
 system = "arcade"
