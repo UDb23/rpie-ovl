@@ -2,6 +2,7 @@
 # The script ignores the file if it doesn't have this entry if it's a system
 # generic overlay, game_name must be "_generic"
 game_name = "Time Pilot"
+creator = "UDb23"
 rom_config = "timeplt.zip.cfg"
 overlay_config = "timeplt.cfg"
 overlay_image = "timeplt_udb_1-ovl.png; timeplt_udb_2-ovl.png "
