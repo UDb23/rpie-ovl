@@ -1,0 +1,7 @@
+game_name = "Popeye"
+system = "arcade"
+creator = "simbz23"
+rom_config = "popeye.zip.cfg"
+overlay_config = "popeye.cfg"
+overlay_image = "popeye_simbz23-ovl.png"
+launching_image = "popeye-launching.png"
