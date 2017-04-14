@@ -1,0 +1,7 @@
+game_name = "Punch-Out!!"
+system = "arcade"
+creator = "simbz23"
+rom_config = "punchout.zip.cfg"
+overlay_config = "punchout.cfg"
+overlay_image = "punchout_simbz23-ovl.png"
+launching_image = "punchout-launching.png"
