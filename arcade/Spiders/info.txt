@@ -1,0 +1,7 @@
+game_name = "Spiders"
+creator = "UDb23"
+rom_config = "spiders.zip.cfg"
+overlay_config = "spiders.cfg"
+overlay_image = "spiders_udb-ovl.png"
+rom_clones = "spiders2"
+system = "arcade"
