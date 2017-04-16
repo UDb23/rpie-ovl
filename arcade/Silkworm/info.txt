@@ -3,4 +3,7 @@ system = "arcade"
 creator = "UDb23"
 rom_config = "silkworm.zip.cfg"
 overlay_config = "silkworm.cfg"
-overlay_image = "silkworm_udb-ovl.png"
+overlay_image = "silkworm_udb-ovl.png""
+launching_image = "silkworm-launching.png"
+scrape_image = "silkworm-image.png"
+
