@@ -1,0 +1,7 @@
+game_name = "Pooyan"
+system = "arcade"
+creator = "UDb23"
+rom_config = "pooyan.zip.cfg"
+overlay_config = "pooyan.cfg"
+overlay_image = "pooyan_udb-ovl.png"
+rom_clones = "pooyans"
