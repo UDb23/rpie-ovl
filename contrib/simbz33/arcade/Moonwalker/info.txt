@@ -1,5 +1,0 @@
-game_name = "Michael Jackson's Moonwalker"
-system = "arcade"
-rom_config = "mwalk.zip.cfg"
-overlay_config = "mwalk.cfg"
-overlay_image = "mwalk-ovl.png"
