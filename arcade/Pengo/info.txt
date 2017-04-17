@@ -1,0 +1,7 @@
+game_name = "Pengo"
+system = "arcade"
+creator = "UDb23"
+rom_config = "pengo.zip.cfg"
+overlay_config = "pengo.cfg"
+overlay_image = "pengo_udb_1-ovl.png; pengo_udb_2-ovl.png"
+
