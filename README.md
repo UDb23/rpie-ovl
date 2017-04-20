@@ -7,7 +7,7 @@ Selected Console overlays, generic and game specific, are also included.
 Original logos, graphics and trademarks are property of their respective owners. 
 # These Overlays are **NOT** for commercial use.
 
-## How to install https://github.com/meleu/rpie-art):
+## How to install
 
 Using meleu's [`rpie-art.sh` script](https://github.com/meleu/rpie-art):
 
