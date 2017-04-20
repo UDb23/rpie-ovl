@@ -7,16 +7,18 @@ Selected Console overlays, generic and game specific, are also included.
 Original logos, graphics and trademarks are property of their respective owners. 
 # These Overlays are **NOT** for commercial use.
 
-## How to install 
-(arcade only, consoles coming soon)
+## How to install
+
+Using meleu's [`rpie-art.sh` script](https://github.com/meleu/rpie-art):
 
 ```
-git clone --depth 1 https://github.com/udb23/rpie-ovl.git
-cd rpie-ovl
-bash rpie-ovl.sh
+cd
+git clone --depth 1 https://github.com/meleu/rpie-art
+cd rpie-art
+./rpie-art.sh
 ```
 
-After launching `rpie-ovl.sh` you just have to follow the instructions in the dialog boxes.
+After launching `rpie-art.sh` you just have to follow the instructions in the dialog boxes.
 
 
 ## How to install manually
