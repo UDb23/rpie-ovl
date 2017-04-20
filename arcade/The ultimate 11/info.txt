@@ -1,0 +1,7 @@
+game_name = "The Ultimate 11"
+system = "arcade"
+creator = "UDb23"
+rom_config = "ssideki4.zip.cfg"
+overlay_config = "ssideki4.cfg"
+overlay_image = "ssideki4_udb-ovl.png"
+
