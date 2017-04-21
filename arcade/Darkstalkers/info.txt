@@ -1,8 +1,7 @@
-# game_name: REQUIRED
-# The script ignores the file if it doesn't have this entry if it's a system
-# generic overlay, game_name must be "_generic"
 game_name = "Darkstalkers: the Night Warriors"
+creator = "UDb23"
+system = "arcade"
 rom_config = "dstlk.zip.cfg"
 overlay_config = "dstlk.cfg"
 overlay_image = "dstlk_udb-ovl.png"
-system = "arcade"
+launching-image = "dstlk-launching.png"
