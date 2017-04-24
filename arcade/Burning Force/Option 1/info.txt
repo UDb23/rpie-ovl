@@ -1,0 +1,7 @@
+game_name = "Burning Force"
+system = "arcade"
+creator = " UDb23"
+rom_config = "burnforc.zip.cfg"
+overlay_config = "burnforc_opt1.cfg"
+overlay_image = "burnforc_udb_opt1-ovl.png"
+rom_clones = "burnforco"
