@@ -1,1 +1,7 @@
-a
+game_name = "Salamander"
+system = "arcade"
+creator = "UDb23"
+rom_config = "salamand.zip.cfg"
+overlay_config = "salamand.cfg"
+overlay_image = "salamand_udb-ovl.png"
+rom_clones = "lifefrce;lifefrcej;salamandj"
