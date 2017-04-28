@@ -1,1 +1,8 @@
-a
+game_name = "Mega Man 6"
+system = "nes"
+creator = "UDb23"
+rom_config = "Mega Man 6 (USA).zip.cfg"
+overlay_config = "Mega Man 6 (USA).cfg"
+overlay_image = "megaman6_udb-ovl.png"
+launching_image = "Mega Man 6 (USA)-launching.png"
+scrape_image = "Mega Man 6 (USA)-image.png"
