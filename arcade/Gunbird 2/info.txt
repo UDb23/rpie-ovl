@@ -1,1 +1,7 @@
-a
+game_name = "Rampage World Tour"
+system = "arcade"
+creator = "UDb23"
+rom_config = "gunbird2.zip.cfg"
+overlay_config = "gunbird2.cfg"
+overlay_image = "gunbird2_udb-ovl.png"
+
