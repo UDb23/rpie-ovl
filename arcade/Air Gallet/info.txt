@@ -1,1 +1,7 @@
-a
+game_name = "Air Gallet"
+system = "arcade"
+creator = "UDb23"
+rom_config = "agallet.zip.cfg"
+overlay_config = "agallet.cfg"
+overlay_image = "agallet_udb-ovl.png"
+rom_clones = "agalletu; agalletj"
