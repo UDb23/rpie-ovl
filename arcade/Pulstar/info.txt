@@ -1,1 +1,7 @@
-a
+game_name = "Pulstar"
+system = "arcade"
+creator = "UDb23"
+rom_config = "pulstar.zip.cfg"
+overlay_config = "pulstar.cfg"
+overlay_image = "pulstar_udb-ovl.png"
+
