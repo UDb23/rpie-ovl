@@ -1,1 +1,7 @@
-a
+game_name = "DoDonPachi Dai-Ou-Jou"
+system = "fba"
+creator = "UDb23"
+rom_config = "ddpdoj.zip.zip.cfg"
+overlay_config = "ddpdoj.zip.cfg"
+overlay_image = "ddpdoj.zip_udb-ovl.png"
+rom_clones = "ddpdojblka; ddpdojblk; ddpdojb;ddpdojblkbl;ddpdoja"
