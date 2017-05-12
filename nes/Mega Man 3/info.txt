@@ -1,4 +1,4 @@
-game_name = "Mega Man 3”
+game_name = "Mega Man 3"
 system = "nes"
 creator = "UDb23"
 rom_config = "Mega Man 3 (USA).zip.cfg"
