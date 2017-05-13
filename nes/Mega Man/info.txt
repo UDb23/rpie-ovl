@@ -1,1 +1,7 @@
-a
+game_name = "Mega Man"
+system = "nes"
+creator = "UDb23"
+rom_config = "Mega Man (USA).zip.zip.cfg"
+overlay_config = "Mega Man (USA).zip.cfg"
+overlay_image = "Mega Man (USA).zip_udb-ovl.png"
+
