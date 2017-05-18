@@ -1,1 +1,7 @@
-a
+game_name = "Quantum"
+system = "arcade"
+creator = "UDb23"
+rom_config = "quantum.zip.cfg"
+overlay_config = "quantum.cfg"
+overlay_image = "quantum_udb-ovl.png"
+rom_clones = "quantum1;quantumq"
