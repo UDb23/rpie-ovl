@@ -1,1 +1,9 @@
-
+game_name = "Super Space Invaders '91"
+system = "arcade"
+creator = "UDb23"
+rom_config = "ssi.zip.cfg"
+overlay_config = "ssi.cfg"
+overlay_image = "ssi_udb-ovl.png;mj12_udb-ovl.png"
+rom_clones = "majest12j"
+launching_image = "ssi-launching.png"
+scrape_image = "ssi-image.png"
