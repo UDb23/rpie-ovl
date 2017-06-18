@@ -1,1 +1,7 @@
+game_name = "Rampage"
+system = "arcade"
+creator = "UDb23"
+rom_config = "rampage.zip.cfg"
+overlay_config = "rampage.cfg"
+overlay_image = "rampage_udb-ovl.png"
 
