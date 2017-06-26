@@ -1,1 +1,7 @@
-a
+game_name = "Varth"
+system = "arcade"
+creator = "UDb23"
+rom_config = "varth.zip.cfg"
+overlay_config = "varth.cfg"
+overlay_image = "varthr_udb_1-ovl.png;varthr_udb_2-ovl.png"
+rom_clones = "varthj;varthu"
