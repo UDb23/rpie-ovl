@@ -1,1 +1,7 @@
-a
+game_name = "Macross II"
+system = "arcade"
+creator = "UDb23"
+rom_config = "macross2.zip.cfg"
+overlay_config = "macross2.cfg"
+overlay_image = "macross2_udb-ovl.png"
+
