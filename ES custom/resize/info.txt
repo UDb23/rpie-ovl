@@ -1,0 +1,11 @@
+Resized icons based on standard Carbon Theme system and controller SVGs:
+
+systems
+mac: 566,92 118,865 no border
+g&W: 566,92 129,21 left & righ border
+Intellivision: 566,92 89,33 no border
+
+
+controller
+lynx: 598 350 border top 62 bot 52  left 46  right 53
+mac: 598 350 border top 17 bot 15  
