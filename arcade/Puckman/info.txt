@@ -1,1 +1,7 @@
-a
+game_name = "Puckman"
+system = "arcade"
+creator = "UDb23"
+rom_config = "puckman.zip.cfg"
+overlay_config = "puckman.cfg"
+overlay_image = "puckman_udb-ovl.png"
+rom_clones = "pacman"
