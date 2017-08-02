@@ -3,5 +3,5 @@ system = "arcade"
 creator = "UDb23"
 rom_config = "tmnt2.zip.cfg"
 overlay_config = "tmnt2.cfg"
-overlay_image = "tmnt2_udb-ovl.png"
+overlay_image = "tmnt2_udb-ovl.png;tmnt2_Nod_udb-ovl.png"
 
