@@ -1,3 +1,0 @@
-system = "zmachine"
-game_name = "_generic"
-launching_image = "https://raw.githubusercontent.com/ehettervik/es-runcommand-splash/master/zmachine/launching.png"
