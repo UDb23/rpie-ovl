@@ -1,3 +1,0 @@
-system = "macintosh"
-game_name = "_generic"
-launching_image = "https://raw.githubusercontent.com/ehettervik/es-runcommand-splash/master/macintosh/launching.png"
