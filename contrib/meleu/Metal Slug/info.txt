@@ -1,4 +1,0 @@
-system = "arcade"
-game_name = "Metal Slug"
-launching_image = "https://raw.githubusercontent.com/HerbFargus/retropie-splashscreens-extra/master/rookervik-metal-slug.png"
-
