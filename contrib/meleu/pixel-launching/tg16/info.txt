@@ -1,3 +1,0 @@
-system = "tg16"
-game_name = "_generic"
-launching_image = "https://raw.githubusercontent.com/ehettervik/es-runcommand-splash/master/tg16/launching.png"
