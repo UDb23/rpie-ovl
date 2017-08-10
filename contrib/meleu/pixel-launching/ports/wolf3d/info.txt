@@ -1,3 +1,0 @@
-system = "ports/wolf3d"
-game_name = "_generic"
-launching_image = "https://raw.githubusercontent.com/ehettervik/es-runcommand-splash/master/ports/wolf3d/launching.png"
