@@ -1,4 +1,0 @@
-system = "nes"
-game_name = "Micro Machines"
-launching_image = "https://raw.githubusercontent.com/HerbFargus/retropie-splashscreens-extra/master/lilbud-micromachines.jpg"
-
