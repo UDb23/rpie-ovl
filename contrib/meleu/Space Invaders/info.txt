@@ -1,3 +1,0 @@
-system = "atari2600; arcade"
-game_name = "Space Invaders"
-launching_image = "https://raw.githubusercontent.com/HerbFargus/retropie-splashscreens-extra/master/color-space-invader.jpg"
