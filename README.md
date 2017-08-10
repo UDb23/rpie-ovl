@@ -4,7 +4,7 @@ Users reported overlays work also with lower resolution (1366x768) and with (lr)
 
 Selected Console overlays, generic and game specific, are also included. 
 
-Original logos, graphics and trademarks are property of their respective owners. 
+Original logos, artwork, graphics and trademarks are property of their respective owners. 
 # These Overlays are **NOT** for commercial use.
 
 ## How to install
