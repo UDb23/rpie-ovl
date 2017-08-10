@@ -1,3 +1,0 @@
-system = "nes"
-game_name = "Metroid"
-launching_image = "https://raw.githubusercontent.com/HerbFargus/retropie-splashscreens-extra/master/im-german-lets-party-metroid.jpg"
