@@ -1,4 +1,0 @@
-system = "snes"
-game_name = "Mega Man X"
-launching_image = "https://raw.githubusercontent.com/HerbFargus/retropie-splashscreens-extra/master/rookervik-megaman-x.png"
-
