@@ -1,1 +1,7 @@
-a
+game_name = "Shock Troopers: 2nd squad"
+system = "arcade"
+creator = "UDb23"
+rom_config = "shocktr2.zip.cfg"
+overlay_config = "shocktr2.cfg"
+overlay_image = "shocktr2_udb-ovl.png"
+
