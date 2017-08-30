@@ -1,1 +1,7 @@
-a
+game_name = "Battle Chopper"
+system = "arcade"
+creator = "UDb23"
+rom_config = "bchopper.zip.cfg"
+overlay_config = "bchopper.cfg"
+overlay_image = "bchopper_udb-ovl.png"
+rom_clones = "mrheli"
