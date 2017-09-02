@@ -1,3 +1,0 @@
-MetaX: Beta version of .txt to xml game information conversion tool (Windows).
-For testing purposes only
-The Author takes no responsibility for any damage, direct or indirect, from using this application.
