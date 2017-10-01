@@ -1,1 +1,7 @@
-a
+game_name = "Sheriff"
+system = "arcade"
+creator = "UDb23"
+rom_config = "sheriff.zip.cfg"
+overlay_config = "sheriff.cfg"
+overlay_image = "sheriff_udb-ovl.png"
+rom_clones = "bandido"
