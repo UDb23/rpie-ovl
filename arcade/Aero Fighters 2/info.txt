@@ -1,1 +1,7 @@
-a
+game_name = "Aero Fighters 2"
+system = "arcade"
+creator = "UDb23"
+rom_config = "sonicwi2.zip.cfg"
+overlay_config = "sonicwi2.cfg"
+overlay_image = "sonicwi2_udb-ovl.png"
+rom_clones = "sonicwi2"
