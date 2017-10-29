@@ -1,1 +1,7 @@
-a
+game_name = "VS. Balloon Fight"
+system = "arcade"
+creator = "UDb23"
+rom_config = "balonfgt.zip.cfg"
+overlay_config = "balonfgt.cfg"
+overlay_image = "balonfgt_udb-ovl.png"
+rom_clones = "___"
