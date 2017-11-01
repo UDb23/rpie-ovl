@@ -1,1 +1,7 @@
-a
+game_name = "R-Type"
+system = "arcade"
+creator = "UDb23"
+rom_config = "rtype.zip.cfg"
+overlay_config = "rtype.cfg"
+overlay_image = "rtype_udb-ovl.png"
+rom_clones = "rtypeu"
