@@ -1,5 +1,5 @@
 game_name = "Donkey Kong"
 rom_config = "dkong.zip.cfg"
 overlay_config = "dkong.cfg"
-overlay_image = "dkong_udb-ovl.png"
+overlay_image = "dkong_udb-ovl.png;dkong1280_udb-ovl.png"
 system = "arcade"
