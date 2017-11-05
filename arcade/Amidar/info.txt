@@ -4,4 +4,6 @@ creator = "UDb23"
 rom_config = "amidar.zip.cfg"
 overlay_config = "amidar.cfg"
 overlay_image = "amidar_udb-ovl.png"
+launching_image = "amidar-launching.png"
 rom_clones = "amidaru;amidars;amidaro"
+
