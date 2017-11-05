@@ -4,4 +4,5 @@ creator = "UDb23"
 rom_config = "armedf.zip.cfg"
 overlay_config = "armedf.cfg"
 overlay_image = "armedf_udb-ovl.png"
+launching_image = "armedf-launching.png"
 
