@@ -4,4 +4,4 @@ creator = "UDb23"
 rom_config = "1944.zip.cfg"
 overlay_config = "1944.cfg"
 overlay_image = "1944_udb-ovl.png"
-
+launching_image = "1944-launching.png"
