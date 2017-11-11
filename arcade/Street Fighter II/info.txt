@@ -1,0 +1,4 @@
+game_name = "Street Fighter II: World Warrior"
+system = "arcade"
+creator = "UDb23"
+launchy_image = "sf2ua-launching.png"
