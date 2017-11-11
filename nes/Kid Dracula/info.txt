@@ -1,0 +1,10 @@
+# game_name: REQUIRED
+# The script ignores the file if it doesn't have this entry if it's a system
+# generic overlay, game_name must be "_generic"
+game_name = "Kid Dracula"
+rom_config = "Kid Dracula (USA, Europe).zip.cfg"
+overlay_config = "Kid Dracula (USA, Europe).cfg"
+overlay_image = "kiddracula_lilbud-ovl.png"
+launching_image = "Kid Dracula (USA, Europe)-launching.png"
+scrape_image = "Kid Dracula (USA, Europe)-image.png"
+system = "nes"

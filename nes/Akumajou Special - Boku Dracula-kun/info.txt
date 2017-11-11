@@ -1,0 +1,10 @@
+# game_name: REQUIRED
+# The script ignores the file if it doesn't have this entry if it's a system
+# generic overlay, game_name must be "_generic"
+game_name = "Akumajou Special - Boku Dracula-kun"
+rom_config = "Akumajou Special - Boku Dracula-kun (Japan).zip.cfg"
+overlay_config = "Akumajou Special - Boku Dracula-kun (Japan).cfg"
+overlay_image = "Akumajou Special - Boku Dracula-kun (Japan)_lilbud-ovl.png"
+launching_image = "Akumajou Special - Boku Dracula-kun (Japan))-launching.png"
+scrape_image = "Akumajou Special - Boku Dracula-kun (Japan)-image.png"
+system = "nes"
