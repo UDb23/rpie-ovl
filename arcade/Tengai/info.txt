@@ -1,5 +1,7 @@
 game_name = "Tengai (Sengoku Blade)"
+system = "arcade"
+creator = "UDb23"
 rom_config = "tengai.zip.cfg"
 overlay_config = "tengai.cfg"
 overlay_image = "tengai_udb-ovl.png"
-system = "arcade"
+launching_image = "tengai-launching.png"
