@@ -1,7 +1,7 @@
 game_name = "Gyruss"
 rom_config = "gyruss.zip.cfg"
 overlay_config = "gyruss.cfg"
-overlay_image = "gyruss_udb-ovl.png; gyrussce_udb-ovl.png"
+overlay_image = "gyruss_udb-ovl.png; gyrussce_udb-ovl.png;gyrussce_1280_udb-ovl.png"
 system = "arcade"
 creator = "UDb23"
 rom_clones = "gyrussce"
