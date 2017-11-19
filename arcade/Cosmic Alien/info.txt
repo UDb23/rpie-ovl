@@ -1,1 +1,8 @@
-a
+game_name = "Cosmic Alien"
+system = "arcade"
+creator = "UDb23"
+rom_config = "cosmica.zip.cfg"
+overlay_config = "cosmica.cfg"
+overlay_image = "cosmica_udb-ovl.png"
+launching_image = "cosmica-launching.png"
+rom_clones = "cosmica2"
