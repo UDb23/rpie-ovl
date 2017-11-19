@@ -1,1 +1,5 @@
-a
+game_name = "QIX"
+system = "arcade"
+creator = "UDb23"
+launching_image = "qix-launching.png"
+rom_clones = "qixa;qixb"
