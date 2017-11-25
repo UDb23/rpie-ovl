@@ -1,1 +1,8 @@
-a
+game_name = "Willow"
+system = "arcade"
+creator = "UDb23"
+rom_config = "willow.zip.cfg"
+overlay_config = "willow.cfg"
+overlay_image = "willow_udb-ovl.png"
+launching_image = "willow-launching.png"
+rom_clones = "willowj;willowuo;willowu"
