@@ -1,8 +1,7 @@
-# game_name: REQUIRED
-# The script ignores the file if it doesn't have this entry if it's a system
-# generic overlay, game_name must be "_generic"
 game_name = "BurgerTime"
+system = "arcade"
+creator = "UDb23"
 rom_config = "btime.zip.cfg"
 overlay_config = "btime.cfg"
-overlay_image = "btime_udb-ovl.png"
-system = "arcade"
+overlay_image = "btime_udb-ovl.png;btime_1280_udb-ovl.png"
+launching_image = "btime-launching.png"
