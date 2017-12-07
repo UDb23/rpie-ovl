@@ -1,1 +1,7 @@
-a
+game_name = "Congo Bongo"
+system = "arcade"
+creator = "UDb23"
+rom_config = "congo.zip.cfg"
+overlay_config = "congo.cfg"
+overlay_image = "congo_udb-ovl.png;congo_1280_udb-ovl.png"
+rom_clones = "congoa"
