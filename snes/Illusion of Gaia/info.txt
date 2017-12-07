@@ -1,0 +1,10 @@
+# game_name: REQUIRED
+# The script ignores the file if it doesn't have this entry if it's a system
+# generic overlay, game_name must be "_generic"
+game_name = "lllusion of Gaia"
+rom_config = "lllusion of Gaia(USA).zip.cfg"
+overlay_config = "lllusion of Gaia(USA).cfg"
+overlay_image = "illusionofgaia_lilbud-ovl.png"
+launching_image = "lllusion of Gaia(USA)-launching.png"
+scrape_image = "lllusion of Gaia(USA)-image.png"
+system = "snes"
