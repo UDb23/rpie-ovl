@@ -1,1 +1,8 @@
-a
+game_name = "Q*bert"
+system = "arcade"
+creator = "UDb23"
+rom_config = "qbert.zip.cfg"
+overlay_config = "qbert.cfg"
+overlay_image = "qbert_udb-ovl.png;qbert1280_udb-ovl.png"
+launching_image = "qbert-launching.png"
+rom_clones = "qbertjp"
