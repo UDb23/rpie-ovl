@@ -1,0 +1,10 @@
+# game_name: Super Mario RPG - Legend of the Seven Stars (USA)
+# The script ignores the file if it doesn't have this entry if it's a system
+# generic overlay, game_name must be "_generic"
+game_name = "Super Mario RPG - Legend of the Seven Stars"
+rom_config = "Super Mario RPG - Legend of the Seven Stars (USA).zip.cfg"
+overlay_config = "Super Mario RPG - Legend of the Seven Stars (USA).cfg"
+overlay_image = "supermariorpg_lilbud-ovl.png"
+launching_image = "Super Mario RPG - Legend of the Seven Stars (USA)-launching.png"
+scrape_image = "Super Mario RPG - Legend of the Seven Stars (USA)-image.png"
+system = "snes"
