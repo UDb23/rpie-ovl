@@ -1,0 +1,4 @@
+game_name = "Cosmic Guerilla"
+system = "arcade"
+creator = "UDb23"
+launching_image = "cosmicg-launching.png"
