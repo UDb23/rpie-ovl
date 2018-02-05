@@ -1,1 +1,8 @@
-c
+game_name = "Centipede"
+system = "arcade"
+creator = "UDb23"
+rom_config = "centiped.zip.cfg"
+overlay_config = "centiped.cfg"
+overlay_image = "centiped_udb-ovl.png"
+
+
