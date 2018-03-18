@@ -1,3 +1,4 @@
+creator = "UDb23"
 game_name = "City Connection"
 rom_config = "citycon.zip.cfg"
 overlay_config = "citycon.cfg"
