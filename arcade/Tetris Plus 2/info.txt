@@ -1,1 +1,7 @@
-aaa
+creator = "UDb23"
+game_name = "Tetris Plus 2 (world)"
+rom_config = "tetrisp2.zip.cfg"
+overlay_config = "tetrisp2.cfg"
+overlay_image = "tetrisp2_udb-ovl.png"
+system = "arcade"
+rom_clones = "tetrisp2ja;tetrisp2j;tp2m32"
