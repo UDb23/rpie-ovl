@@ -1,1 +1,8 @@
-a
+game_name = "1942"
+system = "arcade"
+creator = "UDb23"
+rom_config = "1942.zip.cfg"
+overlay_config = "1942.cfg"
+overlay_image = "1942_udb-ovl.png"
+launching_image = "1942-launching.png"
+
