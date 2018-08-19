@@ -1,1 +1,8 @@
-a
+game_name = "P.O.W. - Prisoners of War"
+system = "arcade"
+creator = "UDb23"
+rom_config = "pow.zip.cfg"
+overlay_config = "pow.cfg"
+overlay_image = "pow_udb-ovl.png"
+launching_image = "pow-launching.png"
+
