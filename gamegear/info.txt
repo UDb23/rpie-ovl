@@ -1,9 +1,0 @@
-# game_name: REQUIRED
-# The script ignores the file if it doesn't have this entry if it's a system
-# generic overlay, game_name must be "_generic"
-creator="Lodan-Zark"
-game_name = "_generic"
-rom_config = "gba-LR.cfg"
-overlay_config = "gba_udb-ovl.cfg"
-overlay_image = "gba_udb-ovl.png"
-system = "gba"
