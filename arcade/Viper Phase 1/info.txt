@@ -1,1 +1,8 @@
+game_name = "Viper Phase 1"
+system = "arcade"
+creator = "UDb23"
+rom_config = "viprp1.zip.cfg"
+overlay_config = "viprp1.cfg"
+overlay_image = "viprp1_udb-ovl.png"
+launching_image = "viprp1-launching.png"
 
