@@ -3,5 +3,4 @@ system = "arcade"
 creator = "UDb23"
 rom_config = "pacland.zip.cfg"
 overlay_config = "pacland.cfg"
-overlay_image = "pacland_udb-ovl.png"
-
+overlay_image = "pland_udb-ovl.png"
