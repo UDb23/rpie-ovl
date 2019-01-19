@@ -1,1 +1,8 @@
-a
+game_name = "Skydiver"
+system = "arcade"
+creator = "UDb23"
+rom_config = "skydiver.zip.cfg"
+overlay_config = "skydiver.cfg"
+overlay_image = "skydiver_udb-ovl.png"
+launching_image = "skydiver-launching.png"
+
