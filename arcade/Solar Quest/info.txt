@@ -1,1 +1,8 @@
-a
+game_name = "Solar Quest"
+system = "arcade"
+creator = "UDb23"
+rom_config = "solarq.zip.cfg"
+overlay_config = "solarq.cfg"
+overlay_image = "solarq_udb-ovl.png"
+launching_image = "solarq-launching.png"
+
