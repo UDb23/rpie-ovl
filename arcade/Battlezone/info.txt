@@ -1,1 +1,8 @@
-a
+game_name = "Battlezone"
+system = "arcade"
+creator = "UDb23"
+rom_config = "bzone.zip.cfg"
+overlay_config = "bzone.cfg"
+overlay_image = "bzone_udb-ovl.png"
+launching_image = "bzone-launching.png"
+rom_clones = "bzone2;bzonec"
