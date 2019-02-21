@@ -1,1 +1,8 @@
+game_name = "Gorf"
+system = "arcade"
+creator = "UDb23"
+rom_config = "gorf.zip.cfg"
+overlay_config = "gorf.cfg"
+overlay_image = "gorf_udb-ovl.png;gorf_udb_L-ovl.png"
+
 
