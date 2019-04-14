@@ -1,1 +1,8 @@
-aa
+game_name = "Choplifter"
+system = "arcade"
+creator = "UDb23"
+rom_config = "chplft.zip.cfg"
+overlay_config = "chplft.cfg"
+overlay_image = "chplft_udb-ovl.png"
+launching_image = "chplft-launching.png"
+
