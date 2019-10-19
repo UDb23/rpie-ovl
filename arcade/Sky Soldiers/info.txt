@@ -1,1 +1,8 @@
-a
+game_name = "Sky Soldiers"
+system = "arcade"
+creator = "UDb23"
+rom_config = "skysoldr.zip.cfg"
+overlay_config = "skysoldr.cfg"
+overlay_image = "skysoldr_udb-ovl.png"
+launching_image = "skysoldr-launching.png"
+
